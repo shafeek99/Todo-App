@@ -6,7 +6,7 @@
   "homepage": "http://shafeek99.github.io/Todo-App",
   "scripts": {
     "dev": "vite",
-    "build": "React-scripts  build",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
